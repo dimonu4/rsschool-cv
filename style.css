@@ -46,9 +46,6 @@ mark {
   background-color: rgb(235, 240, 243);
 }
 
-ul {
-  float: unset;
-}
 li {
   font-weight: initial;
 }
