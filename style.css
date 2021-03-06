@@ -1,13 +1,11 @@
-/* * {
-  margin: 0;
-} */
 h1 {
   font-size: 1.4em;
   color: blue;
 }
 
 section,
-header {
+header,
+footer {
   width: 1020px;
   font: normal 16px "Helvetica Neue", sans-serif;
   line-height: 1.5;
@@ -17,9 +15,17 @@ header {
   margin-right: auto;
 }
 
+header {
+  border-bottom: 1px solid #eaecef;
+}
+
 section {
   text-align: left;
   padding: 20px;
+}
+
+mark {
+  background-color: #fff;
 }
 
 .heading {
@@ -28,11 +34,12 @@ section {
   margin-bottom: 0.6em;
 }
 
-img {
-  width: 240px;
+.avatar {
   float: left;
+  width: 240px;
   padding-right: 3em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
+  padding-top: 3em;
 }
 
 .code {
@@ -52,6 +59,32 @@ li {
 }
 
 .phone,
-.email {
+.email,
+.english {
+  font-weight: bold;
+}
+
+address {
+  border-top: 1px solid #eaecef;
+}
+
+.address-list {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #ccc;
+}
+
+.footer_img {
+  width: 100px;
+}
+
+time {
   font-weight: bold;
 }
