@@ -61,14 +61,12 @@ li {
   font-weight: bold;
 }
 
-address {
-  border-top: 1px solid #eaecef;
-}
-
 .address-list {
   list-style: none;
 }
-
+footer {
+  border-top: 1px solid #eaecef;
+}
 .footer {
   display: flex;
   justify-content: space-around;
