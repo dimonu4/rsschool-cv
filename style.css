@@ -1,0 +1,85 @@
+h1 {
+  font-size: 1.4em;
+  color: blue;
+}
+
+section,
+header,
+footer {
+  width: 1020px;
+  font: normal 16px "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 1px solid #eaecef;
+}
+
+section {
+  text-align: left;
+  padding: 20px;
+}
+
+mark {
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+.avatar {
+  float: left;
+  width: 240px;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-top: 3em;
+}
+
+.code {
+  background-color: rgb(235, 240, 243);
+}
+
+li {
+  font-weight: initial;
+}
+
+.proffesion,
+.english-level {
+  font-style: italic;
+}
+
+.phone,
+.email,
+.english {
+  font-weight: bold;
+}
+
+.address-list {
+  list-style: none;
+}
+footer {
+  border-top: 1px solid #eaecef;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #ccc;
+}
+
+.footer_img {
+  width: 100px;
+}
+
+time {
+  font-weight: bold;
+}
